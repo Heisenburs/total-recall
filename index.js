@@ -129,7 +129,14 @@ for (i = 0; i <= 100; i++) {
 
 // III. Arrays & Control Flow
 // A. Talk about it:
+
+/* 1. values or elements
+   2. yes
+   3. closet
+*/
+
 // B. Easy Does It
+
 // C. Accessing elements
 // D. Change values
 // E. Mix It Up
