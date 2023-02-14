@@ -80,7 +80,7 @@ define: declaring & assigning at the same time
 //_____________________________________________________________
 
 // II. Loops
-
+//! A
 for (let i = 0; i <= 10; i++) {
   //   console.log(i);
 }
@@ -95,6 +95,7 @@ for (let i = 12; i <= 4000; i++) {
   }
 }
 
+//! B
 for (i = 1; i <= 100; i++)
   if (i % 2 === 0) {
     // console.log(`${i} is an even number.`);
@@ -102,15 +103,27 @@ for (i = 1; i <= 100; i++)
     // console.log(i);
   }
 
+//! C
 for (i = 5; i <= 100; i++)
   if (i % 5 === 0) {
-    console.log(`I found a ${i}. High five!`);
+    // console.log(`I found a ${i}. High five!`);
   } else if (i % 3 === 0) {
-    console.log(`I found a ${i}. Three is a crowd.`);
+    // console.log(`I found a ${i}. Three is a crowd.`);
   } else if (i % 5 === 0 && i % 3 === 0) {
-    console.log(` High five! Three is a crowd.`);
+    // console.log(` High five! Three is a crowd.`);
   }
 
+//! D
+let bankAccount = 0;
+
+// for (i = 0; i <= 10; i++) {
+//   bankAccount += i;
+// }
+
+for (i = 0; i <= 100; i++) {
+  bankAccount += i * 2;
+}
+console.log(bankAccount);
 //
 
 // A. The Basics
