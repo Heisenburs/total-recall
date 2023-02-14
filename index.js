@@ -60,26 +60,41 @@ define: declaring & assigning at the same time
 
 // D. The Farm
 
-let animal = "cow";
+// let animal = "cow";
 
-if (animal === "cow") {
-  console.log(`moooooo`);
-} else {
-  console.log(`Hey! You're not a cow`);
-}
+// if (animal === "cow") {
+//   console.log(`moooooo`);
+// } else {
+//   console.log(`Hey! You're not a cow`);
+// }
 
-// E. Driver's Ed
+// // E. Driver's Ed
 
-let age = 24;
+// let age = 24;
 
-if (age >= 16) {
-  console.log(`Here are the keys!`);
-} else {
-  console.log(`Sorry, you're too young.`);
-}
+// if (age >= 16) {
+//   console.log(`Here are the keys!`);
+// } else {
+//   console.log(`Sorry, you're too young.`);
+// }
 //_____________________________________________________________
 
 // II. Loops
+
+for (let i = 0; i <= 10; i++) {
+  //   console.log(i);
+}
+
+for (let i = 10; i <= 400; i++) {
+  //   console.log(i);
+}
+
+//   if (i % 2 === 0) {
+//     console.log(`${i} is an even number.`);
+//   } else {
+//     console.log();
+//   }
+
 // A. The Basics
 // B. Get even
 // C. Give me Five
