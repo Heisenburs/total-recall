@@ -143,14 +143,23 @@ let quotes = ["Easy does it.", "Slow & steady wins the race", "No"];
 
 const randomThings = [1, 10, "Hello", true];
 
-const randomOne = randomThings[0];
-// console.log(randomOne);
+// console.log(randomThings[0]);
 
 randomThings[2] = "World";
 
 // console.log(randomThings);
 
 // D. Change values
+
+const ourClass = ["Salty", "Zoom", "Sardine", "Slack", "Github"];
+
+// console.log(ourClass[2]);
+
+ourClass[4] = "Octocat";
+
+ourClass.push("Cloud City");
+
+// console.log(ourClass);
 
 // E. Mix It Up
 // F. Biggie Smalls
