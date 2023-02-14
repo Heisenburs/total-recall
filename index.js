@@ -137,7 +137,19 @@ for (i = 0; i <= 100; i++) {
 
 // B. Easy Does It
 
+let quotes = ["Easy does it.", "Slow & steady wins the race", "No"];
+
 // C. Accessing elements
+
+const randomThings = [1, 10, "Hello", true];
+
+const randomOne = randomThings[0];
+// console.log(randomOne);
+
+randomThings[2] = "World";
+
+// console.log(randomThings);
+
 // D. Change values
 // E. Mix It Up
 // F. Biggie Smalls
