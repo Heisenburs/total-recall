@@ -181,8 +181,29 @@ myArray.reverse();
 // console.log(myArray);
 
 // F. Biggie Smalls
+
+let num = 143;
+
+if (num < 100) {
+  //   console.log("little number");
+} else {
+  //   console.log("big number");
+}
+
 // G. Monkey in the Middle
+
+let num2 = 7;
+
+if (num2 < 5) {
+  //   console.log("little number");
+} else if (num2 > 10) {
+  //   console.log("big number");
+} else {
+  //   console.log("monkey");
+}
+
 // H. What's in Your Closet?
+
 //_____________________________________________________________
 
 // IV. Functions
