@@ -115,15 +115,16 @@ for (i = 5; i <= 100; i++)
 
 //! D
 let bankAccount = 0;
-
+//? for loop that prints the sum of all of the numbers between 1-10
 // for (i = 0; i <= 10; i++) {
 //   bankAccount += i;
 // }
 
+//? code that will save the sum of all the numbers between 1 - 100 multiplied by 2
 for (i = 0; i <= 100; i++) {
   bankAccount += i * 2;
 }
-console.log(bankAccount);
+// console.log(bankAccount);
 //
 
 // A. The Basics
