@@ -151,6 +151,7 @@ randomThings[2] = "World";
 // console.log(randomThings);
 
 // D. Change values
+
 // E. Mix It Up
 // F. Biggie Smalls
 // G. Monkey in the Middle
