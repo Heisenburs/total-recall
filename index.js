@@ -162,6 +162,24 @@ ourClass.push("Cloud City");
 // console.log(ourClass);
 
 // E. Mix It Up
+
+const myArray = [5, 10, 500, 20];
+
+myArray.push("Aegon", "Beowulf");
+// console.log(myArray);
+
+myArray.shift();
+// console.log(myArray);
+
+myArray.unshift("Bob Marley");
+// console.log(myArray);
+
+myArray.pop("Beowolf");
+// console.log(myArray);
+
+myArray.reverse();
+// console.log(myArray);
+
 // F. Biggie Smalls
 // G. Monkey in the Middle
 // H. What's in Your Closet?
