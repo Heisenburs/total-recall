@@ -89,11 +89,29 @@ for (let i = 10; i <= 400; i++) {
   //   console.log(i);
 }
 
-//   if (i % 2 === 0) {
-//     console.log(`${i} is an even number.`);
-//   } else {
-//     console.log();
-//   }
+for (let i = 12; i <= 4000; i++) {
+  if (i % 3 === 0) {
+    // console.log(i);
+  }
+}
+
+for (i = 1; i <= 100; i++)
+  if (i % 2 === 0) {
+    // console.log(`${i} is an even number.`);
+  } else {
+    // console.log(i);
+  }
+
+for (i = 5; i <= 100; i++)
+  if (i % 5 === 0) {
+    console.log(`I found a ${i}. High five!`);
+  } else if (i % 3 === 0) {
+    console.log(`I found a ${i}. Three is a crowd.`);
+  } else if (i % 5 === 0 && i % 3 === 0) {
+    console.log(` High five! Three is a crowd.`);
+  }
+
+//
 
 // A. The Basics
 // B. Get even
