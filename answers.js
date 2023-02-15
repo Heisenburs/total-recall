@@ -38,24 +38,31 @@ const dart = ["D'Art", "Demogorgan Dog", 2, "Upside Down"];
 // 1
 
 plantee[2] = 5001;
-console.log(plantee);
+// console.log(plantee);
 
 // 2
 
 wolfy[3] = "Gotham City";
-console.log(wolfy);
+// console.log(wolfy);
 
 // 3 Give D'Art a second hometown by adding "Hawkins"
 
 dart.push("Hawkins");
-console.log(dart);
+// console.log(dart);
 
 // 4 Remove "Wolfy" from the wolfy array and replace it with "Gameboy".
 
 wolfy.splice(0, 1, "Gameboy");
-console.log(wolfy);
+// console.log(wolfy);
 
 //* YELL AT THE NINJA TURTLES \\
+
+const ninjaT = ["Donatello", "Leonardo", "Raphael", "Michaelangelo"];
+
+for (let ninja of ninjaT) {
+  console.log(ninja.toUpperCase());
+}
+
 //* METHODS, REVISITED \\
 //* WHERE IS WALDO \\
 //* EXCITED KITTEN \\
