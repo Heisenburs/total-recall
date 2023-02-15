@@ -215,7 +215,7 @@ const kristynsCloset = [
 ];
 
 // 1
-console.log(`Kristyn is rocking that ${kristynsCloset[2]} today!`);
+// console.log(`Kristyn is rocking that ${kristynsCloset[2]} today!`);
 
 // 2
 
