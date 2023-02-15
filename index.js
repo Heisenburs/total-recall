@@ -254,6 +254,7 @@ const thomsCloset = [
 // F.
 // G.
 // H.
+function printLongestWord(array) {}
 //_____________________________________________________________
 
 // V. Objects
