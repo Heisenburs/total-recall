@@ -104,14 +104,15 @@ for (i = 1; i <= 100; i++)
   }
 
 //! C Give Me Five
-for (i = 5; i <= 100; i++)
-  if (i % 5 === 0) {
-    // console.log(`I found a ${i}. High five!`);
+for (i = 5; i <= 100; i++) {
+  if (i % 5 === 0 && i % 3 === 0) {
+    console.log(` High five! Three is a crowd.`);
+  } else if (i % 5 === 0) {
+    console.log(`I found a ${i}. High five!`);
   } else if (i % 3 === 0) {
-    // console.log(`I found a ${i}. Three is a crowd.`);
-  } else if (i % 5 === 0 && i % 3 === 0) {
-    // console.log(` High five! Three is a crowd.`);
+    console.log(`I found a ${i}. Three is a crowd.`);
   }
+}
 
 //! D Savings Account
 let bankAccount = 0;
