@@ -264,12 +264,78 @@ thomsCloset[1][2] = "Footie Pajamas";
 
 // IV. Functions
 // A.
+function printGreeting(name) {
+  console.log(`Hello there, ${name}!`);
+}
+
+printGreeting("Jada");
 // B.
+function printCool(name) {
+  console.log(`${name} is cool`);
+}
+
+printCool("Jada");
 // C.
+function calculateCube(x) {
+  console.log(x * x * x);
+}
+
+calculateCube(5);
 // D.
-// E.
-// F.
+function isVowel(str) {
+  if (
+    str === "a" ||
+    str === "A" ||
+    str === "e" ||
+    str === "E" ||
+    str === "i" ||
+    str === "I" ||
+    str === "o" ||
+    str === "O" ||
+    str === "u" ||
+    str === "U"
+  ) {
+    console.log(true);
+  } else {
+    console.log(false);
+  }
+}
+
+isVowel("");
+
+// E. Cant figure it out
+
+function getTwoLengths(arr) {
+  return arr.length;
+}
+
+getTwoLengths("Jada", "Burs");
+
+// F. Cant figure it out
+
+function getMultipleLengths(arr) {
+  return arr.forEach((element) => {
+    return element.length;
+  });
+}
+
+// console.log(getMultipleLengths(["hello", "what", "is", "up", "dude"]));
 // G.
+
+function maxOfThree(x, y, z) {
+  if (x >= y && x >= z) {
+    return x;
+  }
+
+  if (y >= x && y >= z) {
+    return y;
+  } else {
+    return z;
+  }
+}
+
+// console.log(maxOfThree(6, 9, 111));
+
 // H.
 function printLongestWord(array) {}
 //_____________________________________________________________
