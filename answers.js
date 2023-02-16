@@ -96,25 +96,39 @@ const favMovies = [
 // favMovies.push("Guardians of The Galaxy");
 
 // console.log(favMovies.reverse());
-console.log(favMovies);
+// console.log(favMovies);
 
-console.log(favMovies.shift());
+// console.log(favMovies.shift());
 
-console.log(favMovies.unshift()); // 18
+// console.log(favMovies.unshift()); // 18
 
-console.log(favMovies.indexOf("Django Unchained"));
+// console.log(favMovies.indexOf("Django Unchained"));
 
 favMovies.splice(2, 1, "Avatar");
-console.log(favMovies);
+// console.log(favMovies);
 
-console.log(favMovies.indexOf("Fried Green Tomatoes"));
+// console.log(favMovies.indexOf("Fried Green Tomatoes"));
 
 const lastHalf = favMovies.slice(9);
-console.log(lastHalf);
+// console.log(lastHalf);
 
-console.log(favMovies);
+// console.log(favMovies);
 
-console.log(favMovies.indexOf("Fast and Furious"));
+// console.log(favMovies.indexOf("Fast and Furious"));
 //* WHERE IS WALDO \\
+
+const whereIsWaldo = [
+  ["Timmy", "Frank"],
+  "Eggbert",
+  ["Lucinda", "Jacc", "Neff", "Snoop"],
+  ["Petunia", ["Baked Goods", "Waldo"]],
+];
+
+// console.log(whereIsWaldo.splice([2]));
+
+// whereIsWaldo[2][2] = "No One";
+// console.log(whereIsWaldo);
+
+console.log(whereIsWaldo[3][1][1]);
 //* EXCITED KITTEN \\
 //* FIND THE MEDIAN \\
