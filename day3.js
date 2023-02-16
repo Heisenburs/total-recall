@@ -67,3 +67,36 @@ class Person {
     this.bankAccount -= hamster.getPrice();
   }
 }
+
+const timmy = new Person("Timmy");
+
+// this creates a LOOP OF 5, when you add the function inside the loop, it allows it to run 5 times
+for (let i = 0; i < 5; i++) {
+  timmy.ageUp();
+}
+for (let i = 0; i < 5; i++) {
+  timmy.eat();
+}
+for (let i = 0; i < 5; i++) {
+  timmy.exercise();
+}
+for (let i = 0; i < 9; i++) {
+  timmy.ageUp();
+}
+
+const gus = new Hamster("Gus");
+
+gus.owner = "Timmy";
+
+timmy.buyHamster(gus);
+
+for (let i = 0; i < 15; i++) {
+  timmy.ageUp();
+}
+
+for (let i = 0; i < 2; i++) {
+  timmy.eat();
+}
+for (let i = 0; i < 2; i++) {
+  timmy.exercise();
+}
