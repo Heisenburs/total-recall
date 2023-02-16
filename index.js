@@ -106,11 +106,11 @@ for (i = 1; i <= 100; i++)
 //! C Give Me Five
 for (i = 5; i <= 100; i++) {
   if (i % 5 === 0 && i % 3 === 0) {
-    console.log(` High five! Three is a crowd.`);
+    // console.log(`I found a ${i} High five! Three is a crowd.`);
   } else if (i % 5 === 0) {
-    console.log(`I found a ${i}. High five!`);
+    // console.log(`I found a ${i}. High five!`);
   } else if (i % 3 === 0) {
-    console.log(`I found a ${i}. Three is a crowd.`);
+    // console.log(`I found a ${i}. Three is a crowd.`);
   }
 }
 
@@ -249,6 +249,17 @@ const thomsCloset = [
   ],
 ];
 
+// 4
+
+const thomTop = thomsCloset[0][1];
+const thomPant = thomsCloset[1][1];
+const thomAcc = thomsCloset[2][1];
+// console.log(
+//   `Thom is looking fierce in a ${thomTop}, ${thomPant}, and ${thomAcc}!`
+// );
+
+thomsCloset[1][2] = "Footie Pajamas";
+// console.log(thomsCloset);
 //_____________________________________________________________
 
 // IV. Functions
