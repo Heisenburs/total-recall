@@ -303,23 +303,36 @@ function isVowel(str) {
 
 isVowel("");
 
-// E. Cant figure it out
+// E.function should return array[# of char. in string , # of char. in string]
+const newArray = [];
 
-function getTwoLengths(arr) {
-  return arr.length;
+function getTwoLengths(str1, str2) {
+  newArray.push(str1.length, str2.length);
+  return newArray;
 }
 
-getTwoLengths("Jada", "Burs");
+console.log(getTwoLengths("Jada", "Burs"));
 
-// F. Cant figure it out
+// F.
+
+const newerArray = [];
 
 function getMultipleLengths(arr) {
-  return arr.forEach((element) => {
-    return element.length;
-  });
+  arr.forEach((element) => console.log(element.length));
 }
 
-// console.log(getMultipleLengths(["hello", "what", "is", "up", "dude"]));
+//
+
+function getMultipleLengths(arr) {
+  const resultArr = [];
+  arr.forEach(function (str) {
+    resultArr.push(str.length);
+  });
+  return resultArr;
+}
+
+console.log(getMultipleLengths(["hello", "what", "is", "up", "dude"]));
+
 // G.
 
 function maxOfThree(x, y, z) {

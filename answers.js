@@ -60,10 +60,61 @@ wolfy.splice(0, 1, "Gameboy");
 const ninjaT = ["Donatello", "Leonardo", "Raphael", "Michaelangelo"];
 
 for (let ninja of ninjaT) {
-  console.log(ninja.toUpperCase());
+  //   console.log(ninja.toUpperCase());
 }
 
 //* METHODS, REVISITED \\
+
+const favMovies = [
+  "Jaws",
+  "The Fellowship of the Ring",
+  "Howl's Moving Castle",
+  "Django Unchained",
+  "Cloud Atlas",
+  "The Usual Suspects",
+  "Toy Story",
+  "Conan the Barbarian",
+  "Titanic",
+  "Harry Potter",
+  "Fried Green Tomatoes",
+  "Volver",
+  "Oculus",
+  "Seven",
+  "Black Panther",
+  "Harry Potter",
+  "Imitation of Life",
+  "Snatch",
+  "Fast and Furious",
+];
+
+// console.log(favMovies.indexOf("Titanic"));
+
+// console.log(favMovies.sort());
+
+// console.log(favMovies.pop());
+
+// favMovies.push("Guardians of The Galaxy");
+
+// console.log(favMovies.reverse());
+console.log(favMovies);
+
+console.log(favMovies.shift());
+
+console.log(favMovies.unshift()); // 18
+
+console.log(favMovies.indexOf("Django Unchained"));
+
+favMovies.splice(2, 1, "Avatar");
+console.log(favMovies);
+
+console.log(favMovies.indexOf("Fried Green Tomatoes"));
+
+const lastHalf = favMovies.slice(9);
+console.log(lastHalf);
+
+console.log(favMovies);
+
+console.log(favMovies.indexOf("Fast and Furious"));
 //* WHERE IS WALDO \\
 //* EXCITED KITTEN \\
 //* FIND THE MEDIAN \\
