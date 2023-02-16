@@ -100,3 +100,24 @@ for (let i = 0; i < 2; i++) {
 for (let i = 0; i < 2; i++) {
   timmy.exercise();
 }
+
+class Dinner {
+  constructor(appetizer, entree, dessert) {
+    this.appetizer = appetizer;
+    this.entree = entree;
+    this.dessert = dessert;
+  }
+}
+
+class Chef {
+  makeDinner() {
+    return `The chef has made ${this.appetizer}, ${this.entree}, and ${this.dessert} for dessert!`;
+  }
+}
+
+const chef1 = new Chef();
+const dinner1 = new Dinner("app1", "ent1", "dess1");
+const dinner2 = new Dinner("app2", "ent2", "dess2");
+const dinner3 = new Dinner("app3", "ent3", "dess3");
+
+console.log(chef1.makeDinner(dinner2));
