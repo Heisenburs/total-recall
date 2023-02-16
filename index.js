@@ -220,6 +220,12 @@ const kristynsCloset = [
 
 // 2
 
+kristynsCloset.splice(6, 0, "raybans");
+
+// 3
+
+kristynsCloset[5] = "stained knit hat";
+
 // Thom's closet is more complicated. Check out this nested data structure!!
 const thomsCloset = [
   [
