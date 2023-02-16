@@ -148,4 +148,4 @@ const nums = [
 
 console.log(nums.sort());
 console.log(nums.indexOf(71));
-console.log(nums.length) / 2;
+console.log(nums.length);
