@@ -384,7 +384,22 @@ console.log(user.friend);
 user.friend.purchased.push("The One Ring", "A latte");
 
 console.log(user.friend.purchased[1]);
-// F.
 
+// F. cant figure out
+for (let i = 0; i < user.purchased.length; i++) {
+  // console.log(user[i].purchased);
+}
 // G.
-//_____________________________________________________________
+
+function updateUser() {
+  console.log(` ${user.name.toUpperCase()} & ${user.age++}`);
+}
+
+updateUser();
+
+function oldAndLoud(person) {
+  console.log(` ${user.name.toUpperCase()} & ${user.age++}`);
+}
+
+updateUser(user);
+updateUser(user);
