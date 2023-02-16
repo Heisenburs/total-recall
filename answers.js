@@ -129,6 +129,13 @@ const whereIsWaldo = [
 // whereIsWaldo[2][2] = "No One";
 // console.log(whereIsWaldo);
 
-console.log(whereIsWaldo[3][1][1]);
+// console.log(whereIsWaldo[3][1][1]);
 //* EXCITED KITTEN \\
+
+for (let i = 0; i < 20; i++) {
+  console.log("Love me, pet me! HSSSSSS!");
+  if (i % 2 === 0) {
+    console.log("...human...why you taking pictures of me?...");
+  }
+}
 //* FIND THE MEDIAN \\
