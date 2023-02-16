@@ -130,12 +130,22 @@ const whereIsWaldo = [
 // console.log(whereIsWaldo);
 
 // console.log(whereIsWaldo[3][1][1]);
+
 //* EXCITED KITTEN \\
+//can't figure out
 
 for (let i = 0; i < 20; i++) {
-  console.log("Love me, pet me! HSSSSSS!");
+  //   console.log("Love me, pet me! HSSSSSS!");
   if (i % 2 === 0) {
-    console.log("...human...why you taking pictures of me?...");
+    // console.log("...human...why you taking pictures of me?...");
   }
 }
 //* FIND THE MEDIAN \\
+const nums = [
+  14, 11, 16, 15, 13, 16, 15, 17, 19, 11, 12, 14, 19, 11, 15, 17, 11, 18, 12,
+  17, 12, 71, 18, 15, 12,
+];
+
+console.log(nums.sort());
+console.log(nums.indexOf(71));
+console.log(nums.length) / 2;
