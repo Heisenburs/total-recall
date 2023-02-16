@@ -368,6 +368,23 @@ console.log(user);
 console.log(user.purchased[0][2]);
 
 // E.
+
+user.friend = {
+  name: "K",
+  age: "30",
+  location: "Texas",
+  purchased: [],
+};
+
+console.log(user.friend.location);
+
+user.friend.age = 55;
+console.log(user.friend);
+
+user.friend.purchased.push("The One Ring", "A latte");
+
+console.log(user.friend.purchased[1]);
 // F.
+
 // G.
 //_____________________________________________________________
