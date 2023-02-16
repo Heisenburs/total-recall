@@ -265,19 +265,19 @@ thomsCloset[1][2] = "Footie Pajamas";
 // IV. Functions
 // A.
 function printGreeting(name) {
-  console.log(`Hello there, ${name}!`);
+  // console.log(`Hello there, ${name}!`);
 }
 
 printGreeting("Jada");
 // B.
 function printCool(name) {
-  console.log(`${name} is cool`);
+  // console.log(`${name} is cool`);
 }
 
 printCool("Jada");
 // C.
 function calculateCube(x) {
-  console.log(x * x * x);
+  // console.log(x * x * x);
 }
 
 calculateCube(5);
@@ -295,9 +295,9 @@ function isVowel(str) {
     str === "u" ||
     str === "U"
   ) {
-    console.log(true);
+    // console.log(true);
   } else {
-    console.log(false);
+    // console.log(false);
   }
 }
 
@@ -336,15 +336,37 @@ function maxOfThree(x, y, z) {
 
 // console.log(maxOfThree(6, 9, 111));
 
-// H.
+// H. Cant figure out
 function printLongestWord(array) {}
+
 //_____________________________________________________________
 
 // V. Objects
 // A.
+const user = {
+  name: "Jada",
+  email: "jada.lastn@email.com",
+  age: 24,
+  purchased: [],
+};
+console.log(user);
+
 // B.
+user.email = "firstname123@yahoo.com";
+console.log(user);
+
+user.age++;
+console.log(user);
 // C.
+
+user.location = "Alaska";
+console.log(user);
 // D.
+user.purchased.push(["carbohydrates", "peace of mind", "Merino jodhpurs"]);
+console.log(user);
+
+console.log(user.purchased[0][2]);
+
 // E.
 // F.
 // G.
