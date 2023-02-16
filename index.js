@@ -350,8 +350,28 @@ function maxOfThree(x, y, z) {
 // console.log(maxOfThree(6, 9, 111));
 
 // H. Cant figure out
-function printLongestWord(array) {}
+function printLongestWord(array) {
+  let longestWord = "";
 
+  array.forEach((str) => {
+    if (str.length > longestWord.length) {
+      longestWord = str;
+    }
+  });
+}
+
+console.log(
+  printLongestWord([
+    "Bojack",
+    "Princess",
+    "Diane",
+    "a",
+    "Max",
+    "PeanutButter",
+    "big",
+    "Todd",
+  ])
+);
 //_____________________________________________________________
 
 // V. Objects

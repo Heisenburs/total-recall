@@ -133,11 +133,11 @@ const whereIsWaldo = [
 
 //* EXCITED KITTEN \\
 //can't figure out
+let meow = 0;
 
 for (let i = 0; i < 20; i++) {
   //   console.log("Love me, pet me! HSSSSSS!");
   if (i % 2 === 0) {
-    // console.log("...human...why you taking pictures of me?...");
   }
 }
 //* FIND THE MEDIAN \\

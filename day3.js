@@ -101,6 +101,7 @@ for (let i = 0; i < 2; i++) {
   timmy.exercise();
 }
 
+//* Can't figure out
 class Dinner {
   constructor(appetizer, entree, dessert) {
     this.appetizer = appetizer;
@@ -109,13 +110,13 @@ class Dinner {
   }
 }
 
-class Chef {
+class Chef extends Dinner {
   makeDinner() {
-    return `The chef has made ${this.appetizer}, ${this.entree}, and ${this.dessert} for dessert!`;
+    return `The chef has prepared ${this.appetizer}, ${this.entree}, and ${this.dessert} for dessert!`;
   }
 }
-
 const chef1 = new Chef();
+
 const dinner1 = new Dinner("app1", "ent1", "dess1");
 const dinner2 = new Dinner("app2", "ent2", "dess2");
 const dinner3 = new Dinner("app3", "ent3", "dess3");
